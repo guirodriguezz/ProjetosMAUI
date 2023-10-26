@@ -7,7 +7,7 @@
   "targets": {
     ".NETCoreApp,Version=v7.0": {},
     ".NETCoreApp,Version=v7.0/win10-x64": {
-      "AppNumeroDaSorte/1.0": {
+      "AppNumeroDaSorte/1.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Configuration": "7.0.0",
           "Microsoft.Extensions.DependencyInjection": "7.0.0",
@@ -997,7 +997,7 @@
     }
   },
   "libraries": {
-    "AppNumeroDaSorte/1.0": {
+    "AppNumeroDaSorte/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
