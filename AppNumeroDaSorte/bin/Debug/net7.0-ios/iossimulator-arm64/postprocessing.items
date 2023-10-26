@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <_PostProcessingItem Include="AppNumeroDaSorte.app/AppNumeroDaSorte">
+      <BCSymbolMapName>AppNumeroDaSorte.bcsymbolmap</BCSymbolMapName>
+      <NoDSymUtil>true</NoDSymUtil>
+      <dSYMSourcePathExists>false</dSYMSourcePathExists>
+      <NoSymbolStrip>true</NoSymbolStrip>
+      <dSYMInfoPlistRelativePath>AppNumeroDaSorte.app.dSYM\Contents\Info.plist</dSYMInfoPlistRelativePath>
+      <SymbolFile>\Users\guilhermeamarques\Library\Caches\Xamarin\mtbs\builds\AppNumeroDaSorte\c259116f3c3039350fa2262ec57d80a4c7bcc669e2ab501f1cc03caacbdffc93\obj\Debug\net7.0-ios\iossimulator-arm64\mtouch-symbols.list</SymbolFile>
+      <DSymName>AppNumeroDaSorte.app.dSYM</DSymName>
+      <SourceProjectPath>C:\Users\guiro\Documents\ProjetosMAUI\AppNumeroDaSorte</SourceProjectPath>
+    </_PostProcessingItem>
+  </ItemGroup>
+</Project>
