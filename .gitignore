@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/AppNumeroDaSorte/obj/Debug/net7.0-android/AppNumeroDaSorte.assets.cache
+/AppNumeroDaSorte/obj/Debug/net7.0-ios/iossimulator-arm64/AppNumeroDaSorte.assets.cache
+/AppNumeroDaSorte/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/AppNumeroDaSorte.assets.cache
+/AppNumeroDaSorte/obj/Debug/net7.0-windows10.0.19041.0/win10-x64/AppNumeroDaSorte.assets.cache
