@@ -9,9 +9,9 @@ public class TransactionRepositorie : ITransactionRepositorie
     private readonly LiteDatabase _database;
     private const string CollectionName = "transactions";
 
-    public TransactionRepositorie()
+    public TransactionRepositorie(LiteDatabase database)
     {
-        _database = new LiteDatabase("Filename=C://users/AppData/database.db;Connection=Shared");
+        _database = database;
     }
 
     public List<Transaction> GetAll()
