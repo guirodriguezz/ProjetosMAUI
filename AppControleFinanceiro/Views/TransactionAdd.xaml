@@ -4,5 +4,42 @@
     x:Class="AppControleFinanceiro.Views.TransactionAdd"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
-    <ContentPage.Content />
+    <VerticalStackLayout Spacing="10">
+        <Border
+            BackgroundColor="Black"
+            Margin="15"
+            Padding="15"
+            Stroke="Transparent"
+            StrokeShape="RoundRectangle 30">
+            <Grid ColumnDefinitions="*, 30">
+                <Label
+                    HorizontalOptions="Center"
+                    Text="Novo"
+                    TextColor="White" />
+                <Label
+                    Grid.Column="1"
+                    HorizontalOptions="Center"
+                    Text="X"
+                    TextColor="White" />
+            </Grid>
+        </Border>
+
+        <Grid ColumnDefinitions="*,*" Margin="30,0">
+            <RadioButton Content="Receita" IsChecked="True" />
+            <RadioButton
+                Content="Despesa"
+                Grid.Column="1"
+                HorizontalOptions="End" />
+        </Grid>
+
+        <Entry Margin="15,0" Placeholder="Nome" />
+        <DatePicker Margin="15,0" />
+        <Entry Margin="15,0" Placeholder="Valor" />
+
+        <Button
+            HorizontalOptions="Center"
+            Margin="15,0"
+            Text="Salvar" />
+
+    </VerticalStackLayout>
 </ContentPage>
